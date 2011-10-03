@@ -1,0 +1,6 @@
+				<article>
+					<header>
+						<h3><a href="<TMPL_VAR NAME="settings.url">/xxx.html">yyy</a></h3>
+					</header>
+					text
+				</article>
