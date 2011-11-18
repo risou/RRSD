@@ -3,11 +3,11 @@
 # all the settings in this file will be loaded at Dancer's startup.
 
 # Your application's name
-appname: "risou style personal"
+appname: "RRSD"
 
 # The default layout to use for your application (located in
 # views/layouts/main.tt)
-layout: "risoustyle"
+layout: "rrsd"
 
 # when the charset is set to UTF-8 Dancer will handle for you
 # all the magic of encoding and decoding. You should not care
@@ -18,16 +18,16 @@ charset: "UTF-8"
 # simple: default and very basic template engine
 # template_toolkit: TT
 
-template: "html_template"
+#template: "html_template"
 
 #template: "simple"
 
-# template: "template_toolkit"
-# engines:
-#   template_toolkit:
-#     encoding:  'utf8'
-#     start_tag: '[%'
-#     end_tag:   '%]'
+template: "template_toolkit"
+engines:
+  template_toolkit:
+    encoding:  'utf8'
+    #start_tag: '[%'
+    #end_tag:   '%]'
 
 # RRSD original parameter
 title: "risou sytle personal"
